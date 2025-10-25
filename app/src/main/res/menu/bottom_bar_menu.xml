@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
     <item
-        android:title="Home"
-        android:id="@+id/homeFragment"/>
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
     <item
         android:title="Search"
+        android:icon="@drawable/ic_search"
         android:id="@+id/searchFragment"/>
     <item
         android:title="Notification"
+        android:icon="@drawable/ic_notifications"
         android:id="@+id/notificationsFragment"/>
     <item
         android:title="Saved"
+        android:icon="@drawable/ic_bookmark"
         android:id="@+id/savedFragment"/>
 
 </menu>
